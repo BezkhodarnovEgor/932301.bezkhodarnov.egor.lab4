@@ -15,7 +15,6 @@ body {
     margin-top: 50px;
 }
 
-
 .navigation-block
 {
     color: #2e5473;
@@ -52,9 +51,16 @@ body {
 {   
     text-align:left;
     padding-top: 35px;
+    border-radius: 8px;
 }
-
-
+.information-container .content-block p
+{    
+    background-color: #EDEEF0;
+}
+.information-container .content-block .post .post-header p{
+    background-color: white;
+    margin-left: 6px;
+}
 .content-block
 {
     display: flex;
@@ -79,12 +85,14 @@ body {
     border-width: 1px;
     padding: 15px;
     gap: 16px 0px;
+    background-color: white;
 }
 .post-header{
     color: black;
     font-size: 18px;
     font-weight: bold;
 }
+
 .post hr{
     margin: 0px -15px;
     border-width: 3px 0px 0px 0px;
